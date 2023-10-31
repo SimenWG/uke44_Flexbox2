@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .content {
+    position: fixed;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: red;
+    text-shadow: 2px 0px 2px black;
+    width: 30%;
+    font-size: x-large  ;
+    height: 110%;
+    padding: 20px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+  }
+  
+  .list {
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
